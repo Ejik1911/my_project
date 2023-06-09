@@ -26,3 +26,8 @@ def gallery(request):
 
 def photo(request):
     return HttpResponse("My photo")
+
+def callmed(reguest):
+    return render(reguest, 'callmed.html', {})
+def resume(reguest):
+    return render(reguest, 'resume.html', {})

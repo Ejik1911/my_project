@@ -30,4 +30,6 @@ urlpatterns = [
     path('feedback/', feedback.create),
     path('feedback/index', feedback.index),
     path('api/index', api.index),
+    path('callmed.html', index.callmed),
+    path('resume.html', index.resume),
 ]

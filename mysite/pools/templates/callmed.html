@@ -1,0 +1,67 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edward ru cars project</title>
+    <link rel="stylesheet" href="{% static 'pools/css/swiper-bundle.min.css' %}">
+    <link rel="stylesheet" href="{% static 'pools/css/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+
+    <!--=======Scroll to top button=======-->
+    <div class="scrollToTop-btn flex-center">
+      <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!--=======Light/Dark theme button=======-->
+    <div class="theme-btn flex-center">
+      <i class="fas fa-moon"></i>
+      <i class="fas fa-sun"></i>
+    </div>
+
+
+
+
+    <!--=======Contact section=======-->
+    <section class="contact section " id="contact">
+      <div class="container flex-center">
+        <h1 class="section-title-01">Мои связи</h1>
+        <h2 class="section-title-02">Мои связи</h2>
+        <div class="content">
+          <div class="contact-left">
+            <h2>Давайте обсудим ваш заказ!</h2>
+            <ul class="contact-list">
+              <li>
+                <h3 class="item-title">
+                  <i class="fas fa-phone"></i>Телефон
+                </h3>
+                <span>+7 (926) 547-38-55</span>
+              </li>
+              <li>
+                <h3 class="item-title">
+                  <i class="fas fa-envelope"></i>Почта адрес
+                </h3>
+                <span><a href="mailto:martain@email.co">1032210310@pfur.ru</a></span>
+              </li>
+              <li>
+                <h3 class="item-title">
+                  <i class="fas fa-map-marker-alt"></i>Официальный адрес
+                </h3>
+                <span>1-й Красногвардейский пр., 22, стр. 1, 123112, Москва</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!--=======External scripts=======-->
+    <script src="{% static 'pools/js/swiper-bundle.min.js' %}"></script>
+    <script src="{% static 'pools/js/main.js' %}"></script>
+
+  </body>
+</html>
